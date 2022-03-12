@@ -22,15 +22,32 @@
     width: 3.5rem;
     border-radius: 1.5rem;
 }
-.user-component__text__name {
+.user-component__text__name-xl {
+    color: var(--black);
     font-size: 1.8rem;
     font-weight: 500;
-
+}
+.user-component__text__name-m {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .user-component__text__name-sm {
     font-size: 1.3rem;
 }
-
+.user-component__text__subtitle {
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+}
+.user-component__text__subtitle i {
+    margin-left: 0.3rem;
+    color: var(--red);
+}
+.user-component__text__subicon {
+    color: var(--darkgray);
+    font-size: 2rem;
+}
 .user-component__text__alert {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;

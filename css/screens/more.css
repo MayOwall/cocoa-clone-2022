@@ -1,0 +1,59 @@
+.more-nav {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--verylightgray);
+}
+.more-nav-1, .more-nav-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.more-nav__icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0.5rem 1rem;
+}
+.more-nav-2 .more-nav__icon-box:nth-of-type(3),
+.more-nav-2 .more-nav__icon-box:nth-of-type(4) {
+    visibility: hidden;
+    pointer-events: none;
+}
+.more-nav__icon {
+    position: relative;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+.more-nav__icon__notification {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    right: -1rem;
+    bottom: 2.5rem;
+    background-color: var(--red);
+    border-radius: 0.2rem;
+}
+.more-suggestions__header {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.more-suggestions__section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.more-suggestions__section__icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 1rem;
+}
+.more-suggestions__section__icon-box img {
+    width: 4rem;
+    border-radius: 0.5rem;
+}
+.more-suggestions__section__icon-name {
+    padding: 0.5rem 0;
+    color: var(--gray);
+}
