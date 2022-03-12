@@ -1,0 +1,12 @@
+.blink {
+    animation: blink 1s alternate infinite ease-in-out;
+}
+
+@keyframes blink{
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 20%;
+    }
+}

@@ -37,9 +37,8 @@
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-
 }
-.login-form__submit:active {
+.login-form__btn:active {
     box-shadow: 0.2rem 0.2rem 0.2rem var(--deepyellow) inset;
 }
 .login-form a {
@@ -47,4 +46,26 @@
     color: var(--lightgray);
     font-size: 0.8rem;
     text-decoration: none;
+}
+
+#loading-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--yellow);
+    font-size: 5rem;
+    animation: loading 1s forwards;
+    animation-delay: 2s;
+}
+@keyframes loading {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+        visibility: hidden;
+    }
 }
