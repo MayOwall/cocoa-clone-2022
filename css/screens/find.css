@@ -1,0 +1,126 @@
+.find-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    border-bottom: 0.1rem solid var(--verylightgray);
+}
+.find-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+.find-icons i {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+.find-icons span {
+    color: var(--black);
+}
+
+.reco-friends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+    padding-top: 1rem;
+    border-bottom: 0.1rem solid var(--verylightgray);
+    color: var(--lightgray);
+    position: relative;
+}
+.reco-friends__header {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
+
+.open-chat {
+    padding-top: 1rem;
+    color: var(--lightgray);
+}
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-chat__header__title {
+    color: var(--gray);
+    font-weight: 500;
+}
+.open-chat__header__link {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.open-chat__header__link i{
+    margin-left: 0.5rem;
+}
+
+.open-chat__article {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 0.1rem solid var(--verylightgray);
+}
+.open-chat__article__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-right: 1rem;
+}
+.open-chat__article__text div {
+    padding-bottom: 0.5rem;
+}
+.open-chat__article__text__title {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.open-chat__article__text__user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.open-chat__article__text__user img {
+    width: 1.4rem;
+    border-radius: 1rem;
+}
+.open-chat__article__text__user div {
+    padding: 0;
+}
+.open-chat__article__text__user span {
+    padding: 0 0.3rem;
+}
+.open-chat__article__text__user span:first-of-type {
+    border-right: 0.1rem solid var(--lightgray);
+}
+.open-chat__article__text__user span:last-of-type {
+    color: magenta;
+    font-weight: 500;
+}
+
+.open-chat__article__image {
+    position: relative;
+}
+.open-chat__article__image__img {
+    width: 7rem;
+    border-radius: 1rem;
+}
+.open-chat__article__image__heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem;
+
+    color: white;
+    background-color: var(--darkgray);
+    border-radius: 1rem;
+    opacity: 70%;
+}

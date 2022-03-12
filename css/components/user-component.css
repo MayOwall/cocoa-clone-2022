@@ -1,0 +1,46 @@
+
+.user-component, .user-component__column:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-component__column:last-of-type {
+    color: var(--lightgray);
+}
+
+.user-component__avatar {
+    width: 4rem;
+    margin-right: 1rem;
+    border-radius: 1.8rem;
+
+}
+.user-component__avatar-xl {
+    width: 5rem;
+    border-radius: 2rem;
+}
+.user-component__avatar-sm {
+    width: 3.5rem;
+    border-radius: 1.5rem;
+}
+.user-component__text__name {
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+.user-component__text__name-sm {
+    font-size: 1.3rem;
+}
+
+.user-component__text__alert {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    background-color: var(--red);
+    border-radius: 0.7rem;
+    color: white;
+}

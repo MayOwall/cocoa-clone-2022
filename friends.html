@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocoa Clone Coding_friends</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span class="screen-header__icons__search">
+                <i class="fa fa-search"></i>
+            </span>
+            <span class="screen-header__icons__music">
+                <i class="fas fa-music"></i>
+            </span>
+            <span class="screen-header__icons__setting">
+                <i class="fa-solid fa-gear"></i>
+            </span>
+        </div>
+    </header>
+
+    <a id="friends-names-display" href="#">
+        <i class="fa-solid fa-circle-info"></i>
+        Friends' Names Display
+        <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="main-screen">
+
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar-xl" src="../img/owall-profile.jpg">
+                <div class="user-component__text">
+                    <h4 class="user-component__text__name">Owall</h4>
+                    <!-- <h6 class="user-component__text__subtitle">hello, I'm Owall</h6> -->
+                </div>
+            </div>
+            <div class="user-componenet__column"></div>
+        </div>
+
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel__header">
+                <span>Channel</span>
+                <i class="fa-solid fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar-sm" src="../img/owall-profile.jpg">
+                    <div class="user-component__text">
+                        <h4 class="user-component__text__name user-component__text__name-sm">Channel</h4>
+                        <!-- <h6 class="user-component__text__subtitle">hello, I'm Owall</h6> -->
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2</span>
+                    <i class="fa-solid fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification__chat">1</span>
+                    <i class="fa-regular fa-comment"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="search.html">
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification__ellipsis"></span>
+                    <i class="fa fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/e6154d90aa.js" crossorigin="anonymous"></script>
+</body>
+</html>

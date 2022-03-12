@@ -1,0 +1,33 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding: 1.5rem var(--horizontal-space);
+}
+.screen-header__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.screen-header__icons {
+    display: flex;
+    align-items: center;
+}
+.screen-header__icons__search,
+.screen-header__icons__chat,
+.screen-header__icons__music,
+.screen-header__icons__setting {
+    position: relative;
+    margin-left: 1.5rem;
+    color: var(--lightgray);
+    font-size: 1.5rem;
+}
+.screen-header__icons__notification {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+
+    background-color: var(--red);
+    border-radius: 0.2rem;
+}

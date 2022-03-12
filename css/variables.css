@@ -1,0 +1,12 @@
+:root {
+    --yellow: #fae100;
+    --deepyellow: #dbba00;
+    --red: tomato;
+    --white: white;
+    --verylightgray: rgb(241, 241, 241);
+    --lightgray: lightgray;
+    --gray: gray;
+    --darkgray: rgb(66, 66, 66);
+    --black: black;
+    --horizontal-space: 2rem;
+}
